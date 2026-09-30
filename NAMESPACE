@@ -1,0 +1,7 @@
+S3method(print,rerar_analysis)
+S3method(print,rerar_update)
+export(rerar_analyze)
+export(rerar_history)
+export(rerar_randomize)
+export(rerar_update)
+export(rerar_validation)

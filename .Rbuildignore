@@ -1,0 +1,9 @@
+^ReRAR\.Rproj$
+^\.Rproj\.user$
+^README\.Rmd$
+^cran-comments\.md$
+^\.git$
+^\.gitignore$
+^\.github$
+^man/figures$
+

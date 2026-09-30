@@ -1,0 +1,27 @@
+Package: ReRAR
+Type: Package
+Title: Revision-Aware Response-Adaptive Randomization
+Version: 1.1
+Authors@R: c(
+    person("ReRAR", "Development Team", role = "aut"),
+    person("haohao", role = "cre",
+           email = "224397039+haohaostats@users.noreply.github.com")
+  )
+Author: ReRAR Development Team [aut]
+Maintainer: haohao <224397039+haohaostats@users.noreply.github.com>
+URL: https://github.com/haohaostats/ReRAR
+BugReports: https://github.com/haohaostats/ReRAR/issues
+Description: Implements revision-aware response-adaptive randomization for
+    two-arm trials with an early provisional binary outcome and a delayed
+    final binary outcome. The package estimates treatment-specific outcome
+    revision, maps directional evidence to a bounded allocation target,
+    tracks that target with a doubly adaptive biased-coin design, and provides
+    a final contrast-stabilized augmented inverse-probability weighted
+    analysis using stored randomization probabilities.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.1.0)
+Imports: stats
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3

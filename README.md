@@ -37,8 +37,7 @@ print(x$validation, row.names = FALSE)
 
 The validation component contains published EXAM paired-assessment counts.
 The participant records are **synthetic**: 330 participants in 15 batches,
-with an interim snapshot before batch 8. This is one reproducible example,
-not a clinical reanalysis or a performance comparison.
+with an interim snapshot before batch 8.
 
 | Component | Contents |
 |---|---|
@@ -114,10 +113,6 @@ the final analysis.
 
 ![Allocation decisions and visible outcomes in the built-in synthetic trial](man/figures/example-workflow.png)
 
-The left panel separates the assignment probability, target and realized
-cumulative allocation. The right panel shows outcomes visible before each
-batch. Lines describe this single synthetic trial; they are not replicate means.
-
 For a compact plot directly in R:
 
 ```r
@@ -156,10 +151,3 @@ outcomes are `NA`.
 The published validation counts come from Table 13 of the
 [FDA statistical review for cabozantinib](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203756Orig1s000StatR.pdf).
 All participant-level observations and return times in this package are simulated.
-
-## Package layout
-
-`R/` contains the method implementation, `data/` the prepared example object,
-`man/` the help pages, and `tests/` the automated tests. Data-generation and
-README-rendering scripts are maintained outside the package. Source files
-contain executable code; documentation is maintained in the help pages.

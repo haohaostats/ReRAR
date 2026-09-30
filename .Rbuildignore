@@ -6,4 +6,5 @@
 ^\.gitignore$
 ^\.github$
 ^man/figures$
+^reproducibility$
 

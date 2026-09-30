@@ -7,3 +7,10 @@
 *.zip
 .DS_Store
 Thumbs.db
+reproducibility/output/
+reproducibility/simulation/formal_results/
+reproducibility/simulation/formal_output/
+reproducibility/simulation/pilot_output/
+reproducibility/chapter4_clinical_trial_illustration/results/
+reproducibility/chapter4_clinical_trial_illustration/tables/
+reproducibility/chapter4_clinical_trial_illustration/data/
